@@ -1,4 +1,5 @@
 import React from "react";
+import Border from "./Border";
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
           <br />
         </div>
       </div>
-      <div className="border mt-7 border-zinc-200"></div>
+      <Border />
     </div>
   );
 };
