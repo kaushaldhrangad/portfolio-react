@@ -4,7 +4,7 @@ import Border from "./Border";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center items-center relative z-[1]">
+  <div className="flex flex-col justify-center items-center relative z-[1]">
       <div className="wrapper relative flex justify-between items-center flex-col w-full max-[1100px] gap-3: ">
         <h1 className="flex justify-center mt-8 text-3xl text-gray-800 font-bold uppercase underline ">
           Skills

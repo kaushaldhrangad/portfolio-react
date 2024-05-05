@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="img mt-36 w-72 h-72">
           <Tilt tiltReverse={true}>
           <img
-            className="flex justify top-1/2 left-1/2 -translate-x-[0%] -translate-y-[0%] rounded-full items-center"
+            className="flex  top-1/2 left-1/2 -translate-x-[0%] -translate-y-[0%] rounded-full items-center"
             src={profile}
             alt=""
           />
@@ -21,14 +21,14 @@ const Hero = () => {
         <div></div>
       </div>
       <div className="title">
-        <div>
+        <div className="">
           <h1 className="flex justify-center mt-10 font-semibold font-sans text-md md:text-2xl text-gray-700 uppercase">
             Kaushal Dhrangad
           </h1>
-          <h2 className="flex justify-center mt-6 font-semibold font-sans text-5xl  text-gray-800">
+          <h2 className="flex text-center justify-center mt-6 font-semibold font-sans text-5xl  text-gray-800">
             Frontend Developer
           </h2>
-          <p className="flex justify-center text-center pr-8 font-medium pl-8 mt-7  font-sans text-gray-600 text-xl">
+          <p className="flex justify-center text-center pr-8 font-medium pl-8 mt-7  font-sans text-gray-600 text-xl"> 
             I have a passion for software. I enjoy creating tools that make life
             easier for people.
           </p>
