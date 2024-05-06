@@ -11,8 +11,7 @@ const About = () => {
         <div className="justify-center mt-7 w-[60%] m-auto text-[1.05rem] text-gray-700">
           <p>
             👋 Hey there! I'm Kaushal, a passionate frontend developer with a
-            background in Computer Engineering from LDRP Institute of Research
-            and Technology.
+            background in Computer Engineering from LDRP Institute of Technology and Research.
           </p>
           <br />
 

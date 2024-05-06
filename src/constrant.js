@@ -1,22 +1,3 @@
-export const Bio = {
-  name: "Rishav Chanda",
-  roles: [
-    "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
-    "Programmer",
-  ],
-  description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
-  resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
-};
-
 export const skills = [
   {
     title: "Frontend",
@@ -87,7 +68,8 @@ export const skills = [
       {
         id: 9,
         name: "Node Js",
-        image: "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+        image:
+          "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
       },
       {
         id: 10,
@@ -222,37 +204,56 @@ export const projects = [
     live: "https://react-budget-buddy.vercel.app/",
   },
   {
-    id: 9,
-    title: "Budget Buddy",
+    id: 10,
+    title: "Todo Web App",
     description:
-      "Budget Buddy is an expense-tracking web application developed using React technology. This web application provides a simple and easy-to-use interface for managing expenses, allowing users to keep track of their spending and stay within their budget. The use of React technology ensures that the application is responsive and efficient, providing users with a seamless experience. Budget Buddy is a valuable tool for individuals and businesses alike, helping to promote financial responsibility and accountability. Its intuitive design and comprehensive functionality make it a top choice for those seeking to manage their finances effectively.",
+      "The 'todo-app' project built on React, Redux, and Tailwind CSS offers a robust task management solution with state management through Redux and sleek styling using Tailwind CSS. This application provides a seamless user experience with interactive features powered by React components, efficient data handling with Redux, and modern, responsive design facilitated by Tailwind CSS utilities.",
     image:
-      "https://github.com/kaushaldhrangad/react-budget-buddy/blob/main/Screenshot%202024-05-04%20193751.png?raw=true",
-    tags: ["Material UI", "Tailwind CSS", "React Js"],
-    github: "https://github.com/kaushaldhrangad/react-budget-buddy",
-    live: "https://react-budget-buddy.vercel.app/",
+      "https://github.com/kaushaldhrangad/todo-app/blob/main/todo-app-image.png?raw=true",
+    tags: ["Redux", "Tailwind CSS", "React Js"],
+    github: "https://github.com/kaushaldhrangad/todo-app",
+    live: "https://kaushal-todo-app.vercel.app/",
   },
   {
     id: 9,
-    title: "Budget Buddy",
+    title: "Password Generator",
     description:
-      "Budget Buddy is an expense-tracking web application developed using React technology. This web application provides a simple and easy-to-use interface for managing expenses, allowing users to keep track of their spending and stay within their budget. The use of React technology ensures that the application is responsive and efficient, providing users with a seamless experience. Budget Buddy is a valuable tool for individuals and businesses alike, helping to promote financial responsibility and accountability. Its intuitive design and comprehensive functionality make it a top choice for those seeking to manage their finances effectively.",
+      "password-generator-using-react is a dynamic and secure password generation tool. Leveraging the power of React, this application empowers users to create strong and unique passwords tailored to their specific requirements. With customizable options and robust encryption algorithms, it ensures the generation of highly secure passwords for enhanced digital security. Whether you're a casual user or a security-conscious professional, this repository provides a reliable solution for generating passwords with ease and confidence.",
     image:
-      "https://github.com/kaushaldhrangad/react-budget-buddy/blob/main/Screenshot%202024-05-04%20193751.png?raw=true",
-    tags: ["Material UI", "Tailwind CSS", "React Js"],
-    github: "https://github.com/kaushaldhrangad/react-budget-buddy",
-    live: "https://react-budget-buddy.vercel.app/",
+      "https://github.com/kaushaldhrangad/password-generator-using-react/blob/main/password-generator-image.png?raw=true",
+    tags: ["Tailwind CSS", "React Js"],
+    github: "https://github.com/kaushaldhrangad/password-generator-using-react",
+    live: "https://kaushal-password-generator.vercel.app/",
   },
   {
     id: 9,
-    title: "Budget Buddy",
-    description:
-      "Budget Buddy is an expense-tracking web application developed using React technology. This web application provides a simple and easy-to-use interface for managing expenses, allowing users to keep track of their spending and stay within their budget. The use of React technology ensures that the application is responsive and efficient, providing users with a seamless experience. Budget Buddy is a valuable tool for individuals and businesses alike, helping to promote financial responsibility and accountability. Its intuitive design and comprehensive functionality make it a top choice for those seeking to manage their finances effectively.",
+    title: "QR Code Genrator",
+    description: "Streamlined QR code generator with real-time creation, customization, and sharing. Intuitive interface, and cross-platform compatibility. Easily generate QR codes for text, URLs. Download or share codes seamlessly. Versatile tool for businesses, events, and personal use. Built with standard web technologies - HTML, CSS, JavaScript.",
     image:
-      "https://github.com/kaushaldhrangad/react-budget-buddy/blob/main/Screenshot%202024-05-04%20193751.png?raw=true",
-    tags: ["Material UI", "Tailwind CSS", "React Js"],
-    github: "https://github.com/kaushaldhrangad/react-budget-buddy",
-    live: "https://react-budget-buddy.vercel.app/",
+      "https://github.com/kaushaldhrangad/qr-code-generator/raw/main/demo.gif",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/kaushaldhrangad/qr-code-generator",
+    live: "https://kaushaldhrangad.github.io/qr-code-generator/",
+  },
+  {
+    id: 9,
+    title: "Simon Game",
+    description: "Experience the classic Simon game recreated in a web-based version using HTML, CSS, and JavaScript. Test your memory and reflexes with this interactive and engaging game that challenges players to repeat increasingly complex sequences of colors and sounds.",
+    image:
+      "https://github.com/kaushaldhrangad/Simon-Game/raw/5c5a466c825cf58a0d8a31da710ab1215899a5d3/Simon-Game.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/kaushaldhrangad/Simon-Game",
+    live: "https://kaushaldhrangad.github.io/Simon-Game/",
+  },
+  {
+    id: 9,
+    title: "Hotstar Clone",
+    description: "The Hotstar Clone UI project is a visually appealing web application mimicking Hotstar's interface. Developed using HTML, CSS, and JavaScript, it focuses solely on design elements without functional features. This project showcases my front-end design skills and creativity in creating a sleek and modern user interface.",
+    image:
+      "https://github.com/kaushaldhrangad/Hotstar-Clone/blob/main/hotstar-clone.png?raw=true",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/kaushaldhrangad/Simon-Game",
+    live: "https://kaushaldhrangad.github.io/Simon-Game/",
   },
 ];
 

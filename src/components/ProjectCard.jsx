@@ -40,13 +40,13 @@ const ProjectCard = () => {
                 ))}
               </div>
               <div className="items-center flex gap-5">
-                <a title="GitHub Repo" target="_blank" href={project.github}>
-                  <button className="button my-5 pl-5 flex items-center pr- hover:">
+                <a title="GitHub Repo" target="_blank" className="transition ease-in-out delay-50 hover:scale-150" href={project.github}>
+                  <button className="button my-5 pl-5 flex items-center">
                     <FaSquareGithub color="black" size="2.5em" />
                   </button>
                 </a>
                 <a title="Live Demo" target="_blank" href={project.live}>
-                  <button className="button my-7  ">
+                  <button className="button my-7  transition ease-in-out delay-50 hover:scale-150">
                     <FaExternalLinkAlt size="2em" />
                   </button>
                 </a>
@@ -54,6 +54,13 @@ const ProjectCard = () => {
             </div>
           );
         })}
+      </div>
+      <div className=" mr-7 flex justify-center">
+        <a target="_blank" href="https://github.com/kaushaldhrangad">
+          <button className="bg-gray-700 hover:bg-gray-600  text-white rounded-md p-2 font-bold">
+            View all
+          </button>
+        </a>
       </div>
       <Border />
     </div>

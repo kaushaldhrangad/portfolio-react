@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
       <div className="title">
         <div className="">
-          <h1 className="flex justify-center mt-10 font-semibold font-sans text-md md:text-2xl text-gray-700 uppercase">
+          <h1 className="flex text-2xl justify-center mt-10 font-semibold font-sans text-md max-sm:text-xl max-md:text-xl text-gray-700 uppercase">
             Kaushal Dhrangad
           </h1>
           <h2 className="flex text-center justify-center mt-6 font-semibold font-sans text-5xl  text-gray-800">

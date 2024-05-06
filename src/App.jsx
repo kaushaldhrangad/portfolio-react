@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Experince from "./components/Experince";
 import ProjectCard from "./components/ProjectCard";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Experince />
         <ProjectCard />
         <Education />
+        <Footer />
         
       </div>
     </>
