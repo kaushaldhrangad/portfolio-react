@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className=" font-['Chivo'] flex text-2xl justify-center mt-10 font-semibold text-md max-sm:text-xl max-md:text-xl text-gray-700 uppercase">
             Kaushal Dhrangad
           </h1>
-          <h2 className="flex text-center font-['Libre_Franklin'] justify-center mt-6 font-semibold font-sans text-5xl  text-gray-800">
+          <h2 className="flex text-center font-['Libre_Franklin'] justify-center mt-6 font-semibold text-5xl  text-gray-800">
             Frontend Developer
           </h2>
           <p className=" font-['Chivo'] flex justify-center text-center pr-8 font-medium pl-8 mt-7 text-gray-600 text-xl"> 
