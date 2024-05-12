@@ -7,7 +7,7 @@ import Border from "./Border";
 const ProjectCard = () => {
   return (
     <div>
-      <h1 className=" uppercase mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
+      <h1 className=" uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
         Projects
       </h1>
       <div className="container  px-5 py-16 mx-auto grid md:grid-cols-3 gap-10">
@@ -21,16 +21,16 @@ const ProjectCard = () => {
                 src={project.image}
                 alt={project.title}
               />
-              <div className="title px-5 font-bold text-xl">
+              <div className="title font-['Libre_Franklin'] px-5 font-bold text-xl">
                 {project.title}
               </div>
-              <div className="description px-5 py-5 text-gray-700">
+              <div className="description tracking-wide font-['Chivo'] px-5 py-5 text-[17px] text-gray-700">
                 {project.description.length > 50
                   ? project.description.substring(0, 250) + "...."
                   : project.description}
               </div>
               <h3 className="font-semibold px-5 text-lg">Tech Stack:-</h3>
-              <div className="tags w-full px-3 flex items-center flex-wrap gap-8px mt-2">
+              <div className="tags font-['Chivo'] w-full px-3 flex items-center flex-wrap gap-8px mt-2">
                 {project.tags.map((tag, index) => (
                   <div
                     key={index}
@@ -55,7 +55,7 @@ const ProjectCard = () => {
           );
         })}
       </div>
-      <div className=" mr-7 flex justify-center">
+      <div className=" mr-7 flex font-['Chivo'] justify-center">
         <a target="_blank" href="https://github.com/kaushaldhrangad">
           <button className="bg-gray-700 hover:bg-gray-600  text-white rounded-md p-2 font-bold">
             View all

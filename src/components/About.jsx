@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div>
       <div className="">
-        <h1 className="flex justify-center pt-8 text-3xl font-bold text-gray-800 uppercase underline">
+        <h1 className="flex font-['Libre_Franklin'] justify-center pt-8 text-3xl font-bold text-gray-800 uppercase underline">
           About Me
         </h1>
-        <div className="justify-center mt-7 w-[60%] m-auto text-[1.05rem] text-gray-700">
+        <div className="font-['Chivo'] justify-center mt-7 w-[60%] m-auto text-[1.07rem] text-gray-700">
           <p>
             👋 Hey there! I'm Kaushal, a passionate frontend developer with a
             background in Computer Engineering from LDRP Institute of Technology and Research.

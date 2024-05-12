@@ -12,7 +12,7 @@ import Border from "./Border";
 const Education = () => {
   return (
     <div>
-      <h1 className=" uppercase mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
+      <h1 className=" uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
         Education
       </h1>
       <div

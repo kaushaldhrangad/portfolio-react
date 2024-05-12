@@ -10,19 +10,19 @@ const ExperienceCard = ({ experience }) => {
           src={experience.img}
         />
         {/* </div> */}
-        <div className="body flex flex-col w-full">
-          <div className="text-md font-semibold max-md:text-sm">
+        <div className="body font-['Libre_Franklin'] flex flex-col w-full">
+          <div className="text-md font-bold max-md:text-sm">
             {experience.role}
           </div>
-          <div className="text-sm mt-1 text-zinc-700 font-semibold max-md:text-sm">
+          <div className="text-sm mt-2 text-zinc-700 font-bold max-md:text-sm">
             {experience.company}
           </div>
-          <div className="text-sm mt-1 font-[500] max-md:text-sm text-zinc-700">
+          <div className="text-sm mt-2 font-[550] max-md:text-sm text-zinc-700">
             {experience.date}
           </div>
         </div>
       </div>
-      <div className="description w-full text-[14px] font-normal mb-2 max-md:text-sm">
+      <div className="font-['Chivo'] description w-full text-[16px] font-normal mb-2 max-md:text-[15px]">
         {experience?.desc && (
           <span className=" hover:overflow-visible overflow-hidden max-w-full text-ellipsis">
             {experience?.desc}
@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience }) => {
                 {experience?.skills?.map((skill, index) => (
                   <div
                     key={index}
-                    className="skill text-sm font-normal text-gray-900 max-lg:text-sm">
+                    className="skill text-md font-normal text-gray-900 max-lg:text-sm">
                     • {skill}
                   </div>
                 ))}

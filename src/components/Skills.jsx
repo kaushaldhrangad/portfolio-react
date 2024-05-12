@@ -6,12 +6,12 @@ const Skills = () => {
   return (
   <div className="flex flex-col justify-center items-center relative z-[1]">
       <div className="wrapper relative flex justify-between items-center flex-col w-full max-[1100px] gap-3: ">
-        <h1 className="flex justify-center mt-8 text-3xl text-gray-800 font-bold uppercase underline ">
+        <h1 className="flex font-['Libre_Franklin'] justify-center mt-8 text-3xl text-gray-800 font-bold uppercase underline ">
           Skills
         </h1>
         <div
           key={skills.id}
-          className="skills-container  w-full flex flex-wrap mt-7 gap-7 justify-center">
+          className=" font-['Chivo'] skills-container  w-full flex flex-wrap mt-7 gap-7 justify-center">
           {skills.map((skill, index) => (
             <div
               key={index}
