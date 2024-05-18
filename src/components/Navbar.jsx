@@ -9,7 +9,10 @@ const Navbar = () => {
         </div>
       </a>
       <div className="logo mr-7">
-        <a href="">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1MTQiAecuAsBdac0ZUDQGHu7la0Q17R_U/view?usp=sharing"
+          download="resume.pdf">
           <button className="bg-gray-700 hover:bg-gray-600  text-white rounded-md p-2 font-bold">
             Resume
           </button>

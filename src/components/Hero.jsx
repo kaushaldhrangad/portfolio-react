@@ -3,7 +3,7 @@ import profile from "../assets/profile_pic.png";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Border from "./Border";
-import Tilt from "react-parallax-tilt"
+import Tilt from "react-parallax-tilt";
 
 const Hero = () => {
   return (
@@ -11,11 +11,11 @@ const Hero = () => {
       <div className=" flex justify-center">
         <div className="img mt-36 w-72 h-72">
           <Tilt tiltReverse={true}>
-          <img
-            className="flex  top-1/2 left-1/2 -translate-x-[0%] -translate-y-[0%] rounded-full items-center"
-            src={profile}
-            alt=""
-          />
+            <img
+              className="flex  top-1/2 left-1/2 -translate-x-[0%] -translate-y-[0%] rounded-full items-center"
+              src={profile}
+              alt=""
+            />
           </Tilt>
         </div>
         <div></div>
@@ -28,9 +28,11 @@ const Hero = () => {
           <h2 className="flex text-center font-['Libre_Franklin'] justify-center mt-6 font-semibold text-5xl  text-gray-800">
             Frontend Developer
           </h2>
-          <p className=" font-['Chivo'] flex justify-center text-center pr-8 font-medium pl-8 mt-7 text-gray-600 text-xl"> 
-            I have a passion for software. I enjoy creating tools that make life
-            easier for people.
+          <p className=" font-['Chivo'] flex justify-center  text-center pr-8 font-medium pl-8 mt-7 text-gray-600 text-lg xl:m-auto xl:mt-7 xl:w-[70%] lg:m-auto lg:mt-7 lg:w-[70%] md:m-auto md:mt-7 md:w-[70%] ">
+            {/* I have a passion for software. I enjoy creating tools that make life
+            easier for people. */}
+            I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
+
           </p>
         </div>
         <div className="flex gap-5 mt-8 justify-center">

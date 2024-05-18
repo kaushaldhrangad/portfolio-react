@@ -4,14 +4,14 @@ import Border from "./Border";
 
 const Skills = () => {
   return (
-  <div className="flex flex-col justify-center items-center relative z-[1]">
+    <div className="flex flex-col justify-center items-center relative z-[1]">
       <div className="wrapper relative flex justify-between items-center flex-col w-full max-[1100px] gap-3: ">
         <h1 className="flex font-['Libre_Franklin'] justify-center mt-8 text-3xl text-gray-800 font-bold uppercase underline ">
           Skills
         </h1>
         <div
           key={skills.id}
-          className=" font-['Chivo'] skills-container  w-full flex flex-wrap mt-7 gap-7 justify-center">
+          className="  skills-container font-['Chivo'] w-full flex flex-wrap mt-7 gap-7 justify-center max-sm:w-5/6">
           {skills.map((skill, index) => (
             <div
               key={index}
@@ -22,8 +22,8 @@ const Skills = () => {
               <div className="skill-list flex justify-center flex-wrap gap-3 mb-5">
                 {skill.skills.map((item, index) => (
                   <div
-                  key={index}
-                  className="skills-item text-xs font-normal border-black border rounded-md px-4 py-3 flex items-center justify-center gap-2 ">
+                    key={index}
+                    className="skills-item text-xs font-normal border-black border rounded-md px-4 py-3 flex items-center justify-center gap-2 ">
                     <div className="skill-img w-6 h-6 ">
                       <img src={item.image} alt="" />
                     </div>
