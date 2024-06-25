@@ -83,6 +83,12 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
+      {
+        id: 11,
+        name: "PostgreSQL",
+        image:
+          "https://seeklogo.com/images/P/postgresql-logo-5309879B58-seeklogo.com.png",
+      },
     ],
   },
   {
@@ -138,9 +144,36 @@ export const skills = [
       },
     ],
   },
+  {
+    title: "Programming Language",
+    skills: [
+      {
+        id: 12,
+        name: "Java",
+        image:
+          "https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png",
+      },
+      {
+        id: 13,
+        name: "Python",
+        image:
+          "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
+      },
+    ],
+  },
 ];
 
 export const experiences = [
+  {
+    id: 1,
+    img: "https://www.drupal.org/files/logo-vert-250.png",
+    role: "Summer Intern",
+    company: "TatvaSoft: Software Development Company",
+    date: "May 2024 - June 2024",
+    desc: "This amazing experience allowed me to dive into advanced technologies. I enhanced my database skills with PostgreSQL and created dynamic UIs with Angular. On the backend, I built robust applications using.NET Web API, focusing on security with JWT tokens. I also ventured into cloud computing by deploying applications on Microsoft Azure.",
+    skills: ["AngularJS", ".NET Core", "PostgreSQL"],
+    doc: "",
+  },
   {
     id: 0,
     img: "https://cognifyz.com/wp-content/uploads/2023/11/cognifyz-1.png",
