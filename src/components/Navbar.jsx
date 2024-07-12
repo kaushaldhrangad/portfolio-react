@@ -12,8 +12,7 @@ const Navbar = () => {
       {/* https://drive.google.com/file/d/1MTQiAecuAsBdac0ZUDQGHu7la0Q17R_U/view?usp=sharing */}
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1kbzKQsMkoHYkToiGa5OP59JNj9d5tu1C/view?usp=sharing"
-          download="resume.pdf">
+          href="https://docs.google.com/document/d/1ooIlPtA3eo5oD_xUHnrWwWlwwgxW_uh5cABnhLTlBJg/edit?usp=sharing">
           <button className="bg-gray-700 hover:bg-gray-600  text-white rounded-md p-2 font-bold">
             Resume
           </button>

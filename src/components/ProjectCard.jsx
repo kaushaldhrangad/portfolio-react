@@ -10,7 +10,7 @@ const ProjectCard = () => {
       <h1 className=" uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
         Projects
       </h1>
-      <div className="container  px-5 py-16 mx-auto grid md:grid-cols-3 gap-10">
+      <div className="container  px-5 py-16 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10">
         {projects.map((project, index) => {
           return (
             <div
