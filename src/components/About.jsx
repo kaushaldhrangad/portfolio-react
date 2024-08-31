@@ -1,14 +1,23 @@
-import React from "react";
 import Border from "./Border";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
-      <div className="">
+      <div>
         <h1 className="flex font-['Libre_Franklin'] justify-center pt-8 text-3xl font-bold text-gray-800 uppercase underline">
           About Me
         </h1>
-        <div className="font-['Chivo'] text-justify justify-center mt-7 w-[60%] m-auto text-[1.07rem] text-gray-700 max-sm:w-[73%]">
+        <div className="font-['Chivo'] text-justify justify-center mt-7 w-[60%] m-auto text-[1.07rem] text-gray-700 max-sm:w-[73%]" data-aos="fade-up"  >
           <p>
             👋 Hey there! I'm Kaushal, a passionate frontend developer with a
             background in Computer Engineering from LDRP Institute of Technology and Research.

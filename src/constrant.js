@@ -200,7 +200,7 @@ export const education = [
     img: "https://content3.jdmagicbox.com/comp/gandhinagar-gujarat/e8/9999pxx79.xx79.110610112812.e8e8/catalogue/ldrp-institute-of-technology-and-research-gandhinagar-sector-15-gandhinagar-gujarat-institutes-for-electrical-engineering-wn1bidrdeo.jpg",
     school: "LDRP Institute of Technology & Research, Gandhinagar",
     date: "Oct 2021 - Sep 2025",
-    grade: "6.99 CPI",
+    grade: "6.90 CPI",
     desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at LDRP Institute of Technology & Research, Gandhinagar. I have completed 6 semesters and have a CPI of 6.99. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Engineering - BE, Computer Engineering",
   },

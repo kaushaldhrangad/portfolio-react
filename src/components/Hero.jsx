@@ -14,7 +14,7 @@ const Hero = () => {
             <img
               className="flex  top-1/2 left-1/2 -translate-x-[0%] -translate-y-[0%] rounded-full items-center"
               src={profile}
-              alt=""
+              alt="profile_img"
             />
           </Tilt>
         </div>
@@ -26,7 +26,7 @@ const Hero = () => {
             Kaushal Dhrangad
           </h1>
           <h2 className="flex text-center font-['Libre_Franklin'] justify-center mt-6 font-semibold text-5xl  text-gray-800">
-            Frontend Developer
+            Full Stack Developer
           </h2>
           <p className=" font-['Chivo'] flex justify-center  text-center pr-8 font-medium pl-8 mt-7 text-gray-600 text-lg xl:m-auto xl:mt-7 xl:w-[70%] lg:m-auto lg:mt-7 lg:w-[70%] md:m-auto md:mt-7 md:w-[70%] ">
             {/* I have a passion for software. I enjoy creating tools that make life

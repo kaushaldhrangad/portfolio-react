@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { projects } from "../constrant";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Border from "./Border";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ProjectCard = () => {
+  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <h1 className=" uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
@@ -15,7 +23,7 @@ const ProjectCard = () => {
           return (
             <div
               className=" bg-gray-300 rounded-md py-3 px-4 transition-all delay-[0.1s] ease-in-out hover:-translate-y-4"
-              key={index}>
+              key={index} data-aos="fade-up" data-aos-anchor-placement="top-center">
               <img
                 className="w-[100%] cursor-pointer flex justify-center items-center py-5 px-5"
                 src={project.image}
