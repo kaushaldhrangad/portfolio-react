@@ -20,7 +20,7 @@ const Experince = () => {
 
   return (
     <div>
-      <h1 className="uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-gray-800">
+      <h1 className=" title uppercase font-['Libre_Franklin'] mt-8 text-3xl font-bold justify-center item-center flex underline text-white">
         Experience
       </h1>
       <div id="experience" className="container flex flex-col justify-center relative z-1 items-center py-[40px] max-[960px]:p-0 ] ">

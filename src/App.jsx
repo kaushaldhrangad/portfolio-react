@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-gray-100 h-full overflow-hidden">
+      <div className="bg-neutral-950 h-full overflow-hidden">
         <Navbar />
         <Hero />
         <About />

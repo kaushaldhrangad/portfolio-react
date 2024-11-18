@@ -4,8 +4,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 font-['Libre_Franklin'] text-white py-4 sm:flex sm:justify-between sm:items-center">
-      <div className="text-center sm:text-left px-4 sm:px-8 py-2 sm:py-0 font-semibold">
+    <div className="bg-neutral-950 font-['Libre_Franklin'] text-[white] py-4 sm:flex sm:justify-between sm:items-center">
+      <div className="text-center   sm:text-left px-4 sm:px-8 py-2 sm:py-0 font-semibold">
         {" "}
         Made by Kaushal Dhrangad 🚀{" "}
       </div>
