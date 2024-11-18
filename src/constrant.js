@@ -226,6 +226,16 @@ export const education = [
 
 export const projects = [
   {
+    id: 16,
+    title: "Product Store",
+    description: "A product store is MERN project in that user can create, view and delete the product. This project i build to learn about MERN stack.",
+    image:
+      "https://private-user-images.githubusercontent.com/89659228/387331295-87633a38-9713-4bc1-87a4-165f23d3ed96.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE5NTI3NTUsIm5iZiI6MTczMTk1MjQ1NSwicGF0aCI6Ii84OTY1OTIyOC8zODczMzEyOTUtODc2MzNhMzgtOTcxMy00YmMxLTg3YTQtMTY1ZjIzZDNlZDk2LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTE4VDE3NTQxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3MmUwZmMyYTVlNDgwOTBkYmZjYzg3NmNlMTgwMGU0YWFlZDk4YmMyMzIxZGY1ZThlMzQ0MTJkYzU3NDM3ZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WnVO1T1Bsfb-Jb-yq7kIlFVT4utW25m1uD7kb8s4xho",
+    tags: ["React.js", "Node.js", "Tailwind CSS", "MongoDB", "Express.js"],
+    github: "https://github.com/kaushaldhrangad/product_store",
+    // live: "https://kaushaldhrangad.github.io/Simon-Game/",
+  },
+  {
     id: 11,
     title: "Evently - Event Management Platform",
     description:
@@ -298,6 +308,16 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/kaushaldhrangad/Simon-Game",
     live: "https://kaushaldhrangad.github.io/Simon-Game/",
+  },
+  {
+    id: 16,
+    title: "Product Store",
+    description: "A product store is MERN project in that user can create, view and delete the product. This project i build to learn about MERN stack.",
+    image:
+      "https://private-user-images.githubusercontent.com/89659228/387331295-87633a38-9713-4bc1-87a4-165f23d3ed96.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE5NTI3NTUsIm5iZiI6MTczMTk1MjQ1NSwicGF0aCI6Ii84OTY1OTIyOC8zODczMzEyOTUtODc2MzNhMzgtOTcxMy00YmMxLTg3YTQtMTY1ZjIzZDNlZDk2LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTE4VDE3NTQxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3MmUwZmMyYTVlNDgwOTBkYmZjYzg3NmNlMTgwMGU0YWFlZDk4YmMyMzIxZGY1ZThlMzQ0MTJkYzU3NDM3ZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WnVO1T1Bsfb-Jb-yq7kIlFVT4utW25m1uD7kb8s4xho",
+    tags: ["React.js", "Node.js", "Tailwind CSS", "MongoDB", "Express.js"],
+    github: "https://github.com/kaushaldhrangad/product_store",
+    // live: "https://kaushaldhrangad.github.io/Simon-Game/",
   },
 ];
 
